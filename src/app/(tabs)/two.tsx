@@ -3,8 +3,8 @@ import EditScreenInfo from "@/components/EditScreenInfo";
 
 export default function TabTwoScreen() {
   return (
-    <View className="flex-1 items-center justify-center bg-green-200">
-      <Text style={styles.title}>Tab Two</Text>
+    <View className="flex-1 items-center justify-center bg-blue-200">
+      <Text className="text-red-500 text-2xl font-semibold">Tab Two</Text>
       <View style={styles.separator} />
       <EditScreenInfo path="app/(tabs)/two.tsx" />
     </View>
